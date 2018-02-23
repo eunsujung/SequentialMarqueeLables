@@ -15,6 +15,8 @@
 		132DB141203FE96800F4EBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB140203FE96800F4EBFA /* main.m */; };
 		132DB14B203FE96800F4EBFA /* SequentialMarqueeLabelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB14A203FE96800F4EBFA /* SequentialMarqueeLabelsTests.m */; };
 		132DB156203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB155203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m */; };
+		132DB166203FED3300F4EBFA /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB165203FED3300F4EBFA /* MarqueeLabel.m */; };
+		132DB169203FEDBA00F4EBFA /* MarqueeTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB167203FEDBA00F4EBFA /* MarqueeTextManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		132DB151203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequentialMarqueeLabelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		132DB155203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SequentialMarqueeLabelsUITests.m; sourceTree = "<group>"; };
 		132DB157203FE96800F4EBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132DB164203FED3300F4EBFA /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
+		132DB165203FED3300F4EBFA /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
+		132DB167203FEDBA00F4EBFA /* MarqueeTextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeTextManager.m; sourceTree = "<group>"; };
+		132DB168203FEDBA00F4EBFA /* MarqueeTextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeTextManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		132DB130203FE96800F4EBFA /* SequentialMarqueeLabels */ = {
 			isa = PBXGroup;
 			children = (
+				132DB168203FEDBA00F4EBFA /* MarqueeTextManager.h */,
+				132DB167203FEDBA00F4EBFA /* MarqueeTextManager.m */,
+				132DB164203FED3300F4EBFA /* MarqueeLabel.h */,
+				132DB165203FED3300F4EBFA /* MarqueeLabel.m */,
 				132DB131203FE96800F4EBFA /* AppDelegate.h */,
 				132DB132203FE96800F4EBFA /* AppDelegate.m */,
 				132DB134203FE96800F4EBFA /* ViewController.h */,
@@ -265,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132DB169203FEDBA00F4EBFA /* MarqueeTextManager.m in Sources */,
 				132DB136203FE96800F4EBFA /* ViewController.m in Sources */,
+				132DB166203FED3300F4EBFA /* MarqueeLabel.m in Sources */,
 				132DB141203FE96800F4EBFA /* main.m in Sources */,
 				132DB133203FE96800F4EBFA /* AppDelegate.m in Sources */,
 			);
@@ -430,11 +442,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F497D3N3M8;
 				INFOPLIST_FILE = SequentialMarqueeLabels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,11 +458,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F497D3N3M8;
 				INFOPLIST_FILE = SequentialMarqueeLabels/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
