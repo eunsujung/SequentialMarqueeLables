@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		132DB133203FE96800F4EBFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB132203FE96800F4EBFA /* AppDelegate.m */; };
+		132DB136203FE96800F4EBFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB135203FE96800F4EBFA /* ViewController.m */; };
+		132DB139203FE96800F4EBFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132DB137203FE96800F4EBFA /* Main.storyboard */; };
+		132DB13B203FE96800F4EBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 132DB13A203FE96800F4EBFA /* Assets.xcassets */; };
+		132DB13E203FE96800F4EBFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 132DB13C203FE96800F4EBFA /* LaunchScreen.storyboard */; };
+		132DB141203FE96800F4EBFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB140203FE96800F4EBFA /* main.m */; };
+		132DB14B203FE96800F4EBFA /* SequentialMarqueeLabelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB14A203FE96800F4EBFA /* SequentialMarqueeLabelsTests.m */; };
+		132DB156203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB155203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		132DB147203FE96800F4EBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132DB126203FE96800F4EBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132DB12D203FE96800F4EBFA;
+			remoteInfo = SequentialMarqueeLabels;
+		};
+		132DB152203FE96800F4EBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 132DB126203FE96800F4EBFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 132DB12D203FE96800F4EBFA;
+			remoteInfo = SequentialMarqueeLabels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132DB12E203FE96800F4EBFA /* SequentialMarqueeLabels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequentialMarqueeLabels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		132DB131203FE96800F4EBFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		132DB132203FE96800F4EBFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		132DB134203FE96800F4EBFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		132DB135203FE96800F4EBFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		132DB138203FE96800F4EBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		132DB13A203FE96800F4EBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		132DB13D203FE96800F4EBFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		132DB13F203FE96800F4EBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132DB140203FE96800F4EBFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		132DB146203FE96800F4EBFA /* SequentialMarqueeLabelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequentialMarqueeLabelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		132DB14A203FE96800F4EBFA /* SequentialMarqueeLabelsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SequentialMarqueeLabelsTests.m; sourceTree = "<group>"; };
+		132DB14C203FE96800F4EBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		132DB151203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequentialMarqueeLabelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		132DB155203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SequentialMarqueeLabelsUITests.m; sourceTree = "<group>"; };
+		132DB157203FE96800F4EBFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		132DB12B203FE96800F4EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132DB143203FE96800F4EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132DB14E203FE96800F4EBFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		132DB125203FE96800F4EBFA = {
+			isa = PBXGroup;
+			children = (
+				132DB130203FE96800F4EBFA /* SequentialMarqueeLabels */,
+				132DB149203FE96800F4EBFA /* SequentialMarqueeLabelsTests */,
+				132DB154203FE96800F4EBFA /* SequentialMarqueeLabelsUITests */,
+				132DB12F203FE96800F4EBFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		132DB12F203FE96800F4EBFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				132DB12E203FE96800F4EBFA /* SequentialMarqueeLabels.app */,
+				132DB146203FE96800F4EBFA /* SequentialMarqueeLabelsTests.xctest */,
+				132DB151203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		132DB130203FE96800F4EBFA /* SequentialMarqueeLabels */ = {
+			isa = PBXGroup;
+			children = (
+				132DB131203FE96800F4EBFA /* AppDelegate.h */,
+				132DB132203FE96800F4EBFA /* AppDelegate.m */,
+				132DB134203FE96800F4EBFA /* ViewController.h */,
+				132DB135203FE96800F4EBFA /* ViewController.m */,
+				132DB137203FE96800F4EBFA /* Main.storyboard */,
+				132DB13A203FE96800F4EBFA /* Assets.xcassets */,
+				132DB13C203FE96800F4EBFA /* LaunchScreen.storyboard */,
+				132DB13F203FE96800F4EBFA /* Info.plist */,
+				132DB140203FE96800F4EBFA /* main.m */,
+			);
+			path = SequentialMarqueeLabels;
+			sourceTree = "<group>";
+		};
+		132DB149203FE96800F4EBFA /* SequentialMarqueeLabelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				132DB14A203FE96800F4EBFA /* SequentialMarqueeLabelsTests.m */,
+				132DB14C203FE96800F4EBFA /* Info.plist */,
+			);
+			path = SequentialMarqueeLabelsTests;
+			sourceTree = "<group>";
+		};
+		132DB154203FE96800F4EBFA /* SequentialMarqueeLabelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				132DB155203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m */,
+				132DB157203FE96800F4EBFA /* Info.plist */,
+			);
+			path = SequentialMarqueeLabelsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		132DB12D203FE96800F4EBFA /* SequentialMarqueeLabels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132DB15A203FE96800F4EBFA /* Build configuration list for PBXNativeTarget "SequentialMarqueeLabels" */;
+			buildPhases = (
+				132DB12A203FE96800F4EBFA /* Sources */,
+				132DB12B203FE96800F4EBFA /* Frameworks */,
+				132DB12C203FE96800F4EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SequentialMarqueeLabels;
+			productName = SequentialMarqueeLabels;
+			productReference = 132DB12E203FE96800F4EBFA /* SequentialMarqueeLabels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		132DB145203FE96800F4EBFA /* SequentialMarqueeLabelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132DB15D203FE96800F4EBFA /* Build configuration list for PBXNativeTarget "SequentialMarqueeLabelsTests" */;
+			buildPhases = (
+				132DB142203FE96800F4EBFA /* Sources */,
+				132DB143203FE96800F4EBFA /* Frameworks */,
+				132DB144203FE96800F4EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132DB148203FE96800F4EBFA /* PBXTargetDependency */,
+			);
+			name = SequentialMarqueeLabelsTests;
+			productName = SequentialMarqueeLabelsTests;
+			productReference = 132DB146203FE96800F4EBFA /* SequentialMarqueeLabelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		132DB150203FE96800F4EBFA /* SequentialMarqueeLabelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 132DB160203FE96800F4EBFA /* Build configuration list for PBXNativeTarget "SequentialMarqueeLabelsUITests" */;
+			buildPhases = (
+				132DB14D203FE96800F4EBFA /* Sources */,
+				132DB14E203FE96800F4EBFA /* Frameworks */,
+				132DB14F203FE96800F4EBFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132DB153203FE96800F4EBFA /* PBXTargetDependency */,
+			);
+			name = SequentialMarqueeLabelsUITests;
+			productName = SequentialMarqueeLabelsUITests;
+			productReference = 132DB151203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		132DB126203FE96800F4EBFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jung Eun Su";
+				TargetAttributes = {
+					132DB12D203FE96800F4EBFA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					132DB145203FE96800F4EBFA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 132DB12D203FE96800F4EBFA;
+					};
+					132DB150203FE96800F4EBFA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 132DB12D203FE96800F4EBFA;
+					};
+				};
+			};
+			buildConfigurationList = 132DB129203FE96800F4EBFA /* Build configuration list for PBXProject "SequentialMarqueeLabels" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 132DB125203FE96800F4EBFA;
+			productRefGroup = 132DB12F203FE96800F4EBFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				132DB12D203FE96800F4EBFA /* SequentialMarqueeLabels */,
+				132DB145203FE96800F4EBFA /* SequentialMarqueeLabelsTests */,
+				132DB150203FE96800F4EBFA /* SequentialMarqueeLabelsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		132DB12C203FE96800F4EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132DB13E203FE96800F4EBFA /* LaunchScreen.storyboard in Resources */,
+				132DB13B203FE96800F4EBFA /* Assets.xcassets in Resources */,
+				132DB139203FE96800F4EBFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132DB144203FE96800F4EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132DB14F203FE96800F4EBFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		132DB12A203FE96800F4EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132DB136203FE96800F4EBFA /* ViewController.m in Sources */,
+				132DB141203FE96800F4EBFA /* main.m in Sources */,
+				132DB133203FE96800F4EBFA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132DB142203FE96800F4EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132DB14B203FE96800F4EBFA /* SequentialMarqueeLabelsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		132DB14D203FE96800F4EBFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132DB156203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		132DB148203FE96800F4EBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132DB12D203FE96800F4EBFA /* SequentialMarqueeLabels */;
+			targetProxy = 132DB147203FE96800F4EBFA /* PBXContainerItemProxy */;
+		};
+		132DB153203FE96800F4EBFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 132DB12D203FE96800F4EBFA /* SequentialMarqueeLabels */;
+			targetProxy = 132DB152203FE96800F4EBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		132DB137203FE96800F4EBFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132DB138203FE96800F4EBFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		132DB13C203FE96800F4EBFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				132DB13D203FE96800F4EBFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		132DB158203FE96800F4EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		132DB159203FE96800F4EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		132DB15B203FE96800F4EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequentialMarqueeLabels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		132DB15C203FE96800F4EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequentialMarqueeLabels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		132DB15E203FE96800F4EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequentialMarqueeLabelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SequentialMarqueeLabels.app/SequentialMarqueeLabels";
+			};
+			name = Debug;
+		};
+		132DB15F203FE96800F4EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequentialMarqueeLabelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SequentialMarqueeLabels.app/SequentialMarqueeLabels";
+			};
+			name = Release;
+		};
+		132DB161203FE96800F4EBFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequentialMarqueeLabelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SequentialMarqueeLabels;
+			};
+			name = Debug;
+		};
+		132DB162203FE96800F4EBFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SequentialMarqueeLabelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = esjung.SequentialMarqueeLabelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SequentialMarqueeLabels;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		132DB129203FE96800F4EBFA /* Build configuration list for PBXProject "SequentialMarqueeLabels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132DB158203FE96800F4EBFA /* Debug */,
+				132DB159203FE96800F4EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132DB15A203FE96800F4EBFA /* Build configuration list for PBXNativeTarget "SequentialMarqueeLabels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132DB15B203FE96800F4EBFA /* Debug */,
+				132DB15C203FE96800F4EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132DB15D203FE96800F4EBFA /* Build configuration list for PBXNativeTarget "SequentialMarqueeLabelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132DB15E203FE96800F4EBFA /* Debug */,
+				132DB15F203FE96800F4EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		132DB160203FE96800F4EBFA /* Build configuration list for PBXNativeTarget "SequentialMarqueeLabelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				132DB161203FE96800F4EBFA /* Debug */,
+				132DB162203FE96800F4EBFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 132DB126203FE96800F4EBFA /* Project object */;
+}
