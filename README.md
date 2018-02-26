@@ -2,7 +2,7 @@
 
 # The text labels scroll in sequence.
 
-<p align="center"><img src="https://github.com/eunsujung/SequentialMarqueeLables/blob/master/sp.png" width="300px" border="1" /></p>
+<p align="center"><img src="https://github.com/eunsujung/SequentialMarqueeLables/blob/master/sp.png" width="300px" bordercolor="green" border="1" /></p>
 
 
 Simple Code
