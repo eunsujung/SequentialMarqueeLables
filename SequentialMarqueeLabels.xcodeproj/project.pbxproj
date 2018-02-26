@@ -17,7 +17,7 @@
 		132DB156203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB155203FE96800F4EBFA /* SequentialMarqueeLabelsUITests.m */; };
 		132DB166203FED3300F4EBFA /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB165203FED3300F4EBFA /* MarqueeLabel.m */; };
 		132DB169203FEDBA00F4EBFA /* MarqueeTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 132DB167203FEDBA00F4EBFA /* MarqueeTextManager.m */; };
-		132DB16B20438AF500F4EBFA /* screencapture.png in Resources */ = {isa = PBXBuildFile; fileRef = 132DB16A20438AF200F4EBFA /* screencapture.png */; };
+		132DB16D20438E9D00F4EBFA /* screencapture.png in Resources */ = {isa = PBXBuildFile; fileRef = 132DB16C20438E9C00F4EBFA /* screencapture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		132DB165203FED3300F4EBFA /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
 		132DB167203FEDBA00F4EBFA /* MarqueeTextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeTextManager.m; sourceTree = "<group>"; };
 		132DB168203FEDBA00F4EBFA /* MarqueeTextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeTextManager.h; sourceTree = "<group>"; };
-		132DB16A20438AF200F4EBFA /* screencapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screencapture.png; sourceTree = "<group>"; };
+		132DB16C20438E9C00F4EBFA /* screencapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screencapture.png; path = ../../../Desktop/screencapture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		132DB125203FE96800F4EBFA = {
 			isa = PBXGroup;
 			children = (
-				132DB16A20438AF200F4EBFA /* screencapture.png */,
+				132DB16C20438E9C00F4EBFA /* screencapture.png */,
 				132DB130203FE96800F4EBFA /* SequentialMarqueeLabels */,
 				132DB149203FE96800F4EBFA /* SequentialMarqueeLabelsTests */,
 				132DB154203FE96800F4EBFA /* SequentialMarqueeLabelsUITests */,
@@ -251,8 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				132DB16B20438AF500F4EBFA /* screencapture.png in Resources */,
 				132DB13E203FE96800F4EBFA /* LaunchScreen.storyboard in Resources */,
+				132DB16D20438E9D00F4EBFA /* screencapture.png in Resources */,
 				132DB13B203FE96800F4EBFA /* Assets.xcassets in Resources */,
 				132DB139203FE96800F4EBFA /* Main.storyboard in Resources */,
 			);
